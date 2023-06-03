@@ -14,7 +14,7 @@
   }
   
   .wrapper {
-    min-height:100vh;
+    /* min-height:100vh; */
     width: 100%;
     background: linear-gradient(to right, #23074d, #cc5333);
     
@@ -65,7 +65,7 @@ border-bottom: 10px solid transparent;
   .text-section,
   .text-section--mobile {
     background-image: linear-gradient(to right, #000, transparent);
-    padding: 3rem 3rem;
+    padding: 5rem 8rem;
     color: white;
     display: flex;
     flex-direction: column;
@@ -1367,3 +1367,17 @@ p {
 
 
 
+.accordion-body-closed{
+  opacity: 0; 
+  transform: translate3d(0px, 20px, 0px) scale3d(0.96, 0.96, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); 
+  transform-style: preserve-3d;
+  width: 450px; 
+  height: 0px;
+}
+
+.accordion-body-open{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
+  width: 450px;
+}
