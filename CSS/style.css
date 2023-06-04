@@ -481,10 +481,10 @@ border-bottom: 10px solid transparent;
               .hero_play-wrap {
                 /* transform: scale(1); */
                 position: absolute;
-                bottom: 50%;
+                top: 55%;
                 z-index: 20;
                 left: 50%;
-                transform: translate(-50%,-50%,0);
+                transform: translate(-50%,-50%);
             }
 
             /* .hero_play-wrap:hover {
@@ -1206,12 +1206,13 @@ p {
 }
 
 .bonuses_image {
-  width: 435px;
-  height: 485px;
-  object-fit: cover;
-  border-top-left-radius: 24px;
-  border-bottom-left-radius: 24px;
-  margin-left: 10%;
+	width: 435px;
+	height: 421px;
+	object-fit: cover;
+	border-top-left-radius: 24px;
+	border-bottom-left-radius: 24px;
+	margin-left: 10%;
+	margin-top: 5em;
 }
 
 .bonuses_image {
@@ -1324,13 +1325,14 @@ p {
 }
 
 .bonuses_content-wrapper {
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
-  flex-direction: column;
-  padding: 64px;
-  display: flex;
-  background-color: #c13438;
-  justify-content: flex-start;
+	grid-column-gap: 24px;
+	grid-row-gap: 24px;
+	flex-direction: column;
+	padding: 64px;
+	display: flex;
+	background-color: #c13438;
+	justify-content: flex-start;
+	margin-top: 5em;
 }
 
 .bonuses_wrapper{
