@@ -72,6 +72,10 @@ border-bottom: 10px solid transparent;
     gap: 1rem;
   }
 
+  .text-section--mobile {
+    background: #150d16;
+  }
+
   @media (max-width: 1350px) {
     .text-section{
       padding: 3em 4em;
@@ -1500,12 +1504,29 @@ p {
 
 .bonuses_image {
 	width: 435px;
-	height: 421px;
+	height: 460px;
 	object-fit: cover;
 	border-top-left-radius: 24px;
 	border-bottom-left-radius: 24px;
 	margin-left: 10%;
 	margin-top: 5em;
+}
+
+
+@media (max-width: 1407px) {
+  .bonuses_image{
+    height: 34em;
+  }
+}
+
+@media (max-width: 1034px) {
+  .bonuses_image{
+    margin: 0px;
+    margin-top: 5em;
+    height: 400px;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+  }
 }
 
 .bonuses_image {
@@ -1648,12 +1669,46 @@ p {
 	background-color: #c13438;
 	justify-content: flex-start;
 	margin-top: 5em;
+  height: 460px;
+}
+
+@media (max-width: 1407px) {
+  .bonuses_content-wrapper{
+    height: 34em;
+  }
+}
+
+
+@media (max-width: 1034px) {
+  .bonuses_content-wrapper{
+    margin: 0px;
+    border-radius: 0px 0px 10px 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  .bonuses_content-wrapper{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 477px) {
+  .bonuses_content-wrapper{
+    padding: 20px;
+  }
 }
 
 .bonuses_wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1034px) {
+  .bonuses_wrapper{
+    flex-direction: column;
+  }
 }
 
 .bonuses_wrapper h2 {
@@ -1680,7 +1735,7 @@ p {
   line-height: 130%;
 }
 
-@media (max-width: 525px) {
+@media (max-width: 625px) {
   .button {
     width: 100%;
     color: #fff;
